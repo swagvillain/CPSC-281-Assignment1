@@ -7,12 +7,12 @@ public class MyNode {
 
     public MyNode(int val){
         this.val = val;
-
+        MyNode nextNode;
     }
 
-    //static variables
-    private MyNode nextNode;
-    private int val;
+    //non-static variables
+    public MyNode nextNode;
+    public int val;
 
     //getters and setters
     public int getVal() {
